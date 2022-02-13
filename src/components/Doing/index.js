@@ -45,11 +45,18 @@ const Doing = () => {
         <CardWrapper data-aos="fade-up">
           <CardHeader>
             <Page src={image1} />
-            <CardHeading>lorem</CardHeading>
+            <CardHeading>Hoja de piel grabada tib</CardHeading>
           </CardHeader>
           <CardBody>
             <CardFieldset>
-              <CardOptionsNote>lorem</CardOptionsNote>
+              <CardOptionsNote>
+                Hoja de piel grabada grueso del 1.8 al 2 mm en varios colores
+                precio de mercado $2.10 el decímetro enviamos a toda la
+                república mexicana.
+              </CardOptionsNote>
+              <CardOptionsNote>
+                1 bulto contiene 10 piezas 2200 dcm x 2.10=$4620.00
+              </CardOptionsNote>
             </CardFieldset>
           </CardBody>
         </CardWrapper>
@@ -109,14 +116,17 @@ const Doing = () => {
         <CardWrapper data-aos="fade-up">
           <CardHeader>
             <Page src={image5} />
-            <CardHeading>Hoja de piel avestruz</CardHeading>
+            <CardHeading>Hoja de acabado verde pastel</CardHeading>
           </CardHeader>
           <CardBody>
             <CardFieldset>
               <CardOptionsNote>
-                Hoja de piel avestruz de exelente calidad en varios colores piel
-                para bota y calzado el grueso es del 1.8 al 2 mm precio de
-                mercado a $2.10 el decímetro contamos con servicio a domicilio.
+                Hoja acabada en verde pastel grueso del (1.8 al 2 mm) precio de
+                mercado a $1.90 el decímetro se hacen envíos a toda la república
+                mexicana.
+              </CardOptionsNote>
+              <CardOptionsNote>
+                1 bulto contiene 10 piezas 2200 dcm x 1.90 =$4180
               </CardOptionsNote>
             </CardFieldset>
           </CardBody>
@@ -142,22 +152,37 @@ const Doing = () => {
         <CardWrapper data-aos="fade-up">
           <CardHeader>
             <Page src={image7} />
-            <CardHeading>lorem</CardHeading>
+            <CardHeading>Hoja de guante de amarillo</CardHeading>
           </CardHeader>
           <CardBody>
             <CardFieldset>
-              <CardOptionsNote>lorem</CardOptionsNote>
+              <CardOptionsNote>
+                Hoja Guante industrial amarilla de flor exelente calidad su
+                calibre de la hoja es del 1.2 a 1.3 suavidad garantizada,se
+                puede hacer pedidos en blanco y amarillo se produce siempre en
+                línea nada de saldos.
+              </CardOptionsNote>
+              <CardOptionsNote>
+                Su precio es a $1.20 el decímetro Bulto contiene 15 a 18 piezas
+              </CardOptionsNote>
             </CardFieldset>
           </CardBody>
         </CardWrapper>
         <CardWrapper data-aos="fade-up">
           <CardHeader>
             <Page src={image8} />
-            <CardHeading>lorem</CardHeading>
+            <CardHeading>Hoja acabado rosa fiusha</CardHeading>
           </CardHeader>
           <CardBody>
             <CardFieldset>
-              <CardOptionsNote>lorem</CardOptionsNote>
+              <CardOptionsNote>
+                Hoja acabado rosa fiusha grueso del (1.8 al 2 mm) Precio de
+                mercado a $1.90 el decímetro se hacen envíos a toda la república
+                mexicana.
+              </CardOptionsNote>
+              <CardOptionsNote>
+                1 bulto contiene 10 piezas 2200 dcm x 1.90 =$ 4180
+              </CardOptionsNote>
             </CardFieldset>
           </CardBody>
         </CardWrapper>
@@ -239,7 +264,7 @@ const Doing = () => {
           </CardBody>
         </CardWrapper>
       </div>
-      <Message href="tel:4775876162"> Contáctanos </Message>
+      <Message href="https://wa.me/c/5214775876162"> Catálogo </Message>
     </Wrapper>
   );
 };

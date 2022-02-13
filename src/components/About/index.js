@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -12,7 +12,8 @@ import "swiper/css/navigation";
 import MapP from "../../images/factory.svg";
 import Mision from "../../images/eng.svg";
 import Vision from "../../images/mind.svg";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 // import Swiper core and required modules
 import SwiperCore, { Pagination } from "swiper";
 
@@ -20,6 +21,9 @@ import SwiperCore, { Pagination } from "swiper";
 SwiperCore.use([Pagination]);
 
 const About = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <>
       <Wrapper id="about">
