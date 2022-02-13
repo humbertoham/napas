@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "P22";
+  src: local("P22"), url(fonts/P22.ttf) format("truetype");
+}
+@font-face {
+  font-family: "LemonSans";
+  src: local("LemonSans"), url(fonts/LemonSans.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"), url(fonts/Montserrat.ttf) format("truetype");
+}
