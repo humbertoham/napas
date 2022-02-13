@@ -228,18 +228,17 @@ const Doing = () => {
         <CardWrapper data-aos="fade-up">
           <CardHeader>
             <Page src={image11} />
-            <CardHeading>Hoja de piel floter</CardHeading>
+            <CardHeading>Hoja de piel grabado lag</CardHeading>
           </CardHeader>
           <CardBody>
             <CardFieldset>
               <CardOptionsNote>
-                Grueso del (1.8 al 2 mm) exelente calidad en diferentes colores:
-                negro,café ,schedron,miel,azul,blanco,vino,etc. puede ir suave o
-                armada dependiendo al gusto del cliente. Bota industrial, bolsa
-                y carteras,calzado, aceesorios etc.
+                Hoja de piel en varios colores grueso del 1.8 al 2 mm precio de
+                mercado a $2.10 el decímetro piel para bolsa y cartera manejamos
+                envios a toda la república mexicana.
               </CardOptionsNote>
               <CardOptionsNote>
-                1 bulto contiene 10 piezas 2200 dcm x 2.10=$4620.00
+                2200 dcm x 2.10=$4620.00 1 bulto contiene 10 piezas.
               </CardOptionsNote>
             </CardFieldset>
           </CardBody>

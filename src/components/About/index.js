@@ -12,6 +12,7 @@ import "swiper/css/navigation";
 import MapP from "../../images/factory.svg";
 import Mision from "../../images/eng.svg";
 import Vision from "../../images/mind.svg";
+import Valores from "../../images/review.svg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 // import Swiper core and required modules
@@ -77,14 +78,28 @@ const About = () => {
               <Text>
                 <h1>Visión</h1>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Magni culpa nostrum nemo doloribus aperiam, est voluptatibus
-                  iusto aliquam modi distinctio repudiandae doloremque quibusdam
-                  fugit dolores veritatis? Temporibus dolorem corporis minus!.
+                  Satisfacer las necesidades del cliente ofreciendoles un
+                  producto decalidad y bajo costo considerando la necesidad del
+                  cliente, trabajando con transpariencia ofreciendo un producto
+                  de calidad.
                 </p>
               </Text>
               <MapC className="right" data-aos="fade-up">
                 <Map src={Vision} />
+              </MapC>
+            </Content>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Content data-aos="fade-right">
+              <Text>
+                <h1>Valores</h1>
+                <p>
+                  Honestidad, confianza, compromiso, empatía, transparencia,
+                  respeto, calidad e innovación
+                </p>
+              </Text>
+              <MapC className="right" data-aos="fade-up">
+                <Map src={Valores} />
               </MapC>
             </Content>
           </SwiperSlide>
