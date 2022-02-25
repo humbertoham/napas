@@ -43,10 +43,10 @@ const About = () => {
               <Text>
                 <h1>¿Quiénes somos?</h1>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Magni culpa nostrum nemo doloribus aperiam, est voluptatibus
-                  iusto aliquam modi distinctio repudiandae doloremque quibusdam
-                  fugit dolores veritatis? Temporibus dolorem corporis minus!
+                  Somos un grupo de personas que se encarga de dar un servicio
+                  especializado ofreciendo los productos relacionados con la
+                  piel para calzado, carnaza, ganuza, forros, de muy buena
+                  calidad y a los mejores precios.
                 </p>
               </Text>
               <MapC className="right" data-aos="fade-up">
